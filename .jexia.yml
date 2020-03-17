@@ -1,0 +1,6 @@
+image: <docker_image_to_build_app>
+port: <port_which_application_listening>
+run: <command_for_kubernetes>
+env:
+- <KEY1>=<VALUE1>
+- <KEY2>=<VALUE2>
