@@ -1,6 +1,6 @@
-image: <docker_image_to_build_app>
-port: <port_which_application_listening>
-run: <command_for_kubernetes>
+image: python
+port: 80
+run: python manage.py runserver 0.0.0.0:80
 env:
-- <KEY1>=<VALUE1>
-- <KEY2>=<VALUE2>
+- log_level=info
+- debug=true
