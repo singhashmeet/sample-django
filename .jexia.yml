@@ -1,4 +1,4 @@
 language: python
-port: 8080:80
+port: 80
 run:
  - python manage.py runserver 0.0.0.0:80
